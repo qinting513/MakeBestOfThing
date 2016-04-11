@@ -20,7 +20,7 @@ import UIKit
 }
 
 @IBDesignable class IBInspectableImageView: UIImageView {
-    var kCornerRadius: CGFloat = 0.0
+    @IBInspectable var kCornerRadius: CGFloat = 0.0
         {
         didSet{
             layer.cornerRadius = kCornerRadius
