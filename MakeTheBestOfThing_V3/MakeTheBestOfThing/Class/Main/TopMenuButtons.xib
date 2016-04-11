@@ -25,10 +25,10 @@
                     <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="15"/>
                     <state key="normal" title="精选"/>
                     <connections>
-                        <action selector="leftBtnClick:" destination="YFj-Az-b0f" eventType="touchUpInside" id="KSN-YB-7Mz"/>
+                        <action selector="leftBtnClick:" destination="YFj-Az-b0f" eventType="touchUpInside" id="4I9-3d-Pyh"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeR-7P-JW8">
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeR-7P-JW8" userLabel="right Button">
                     <rect key="frame" x="42" y="0.0" width="42" height="20.5"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="42" id="3yy-4Y-vcG"/>
@@ -37,7 +37,7 @@
                     <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="15"/>
                     <state key="normal" title="关注"/>
                     <connections>
-                        <action selector="rightBtnClick:" destination="YFj-Az-b0f" eventType="touchUpInside" id="6kS-GE-6NA"/>
+                        <action selector="rightBtnClick:" destination="YFj-Az-b0f" eventType="touchUpInside" id="r2Q-1Y-jOD"/>
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6pp-RM-STU">
@@ -64,8 +64,8 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="indicatotView" destination="6pp-RM-STU" id="gNI-NM-BlT"/>
-                <outlet property="leftButton" destination="ByN-Pc-Rgb" id="u3c-To-eaV"/>
-                <outlet property="rightButton" destination="IeR-7P-JW8" id="1hX-Uz-ijr"/>
+                <outlet property="leftButton" destination="ByN-Pc-Rgb" id="wTR-Nn-BRh"/>
+                <outlet property="rightButton" destination="IeR-7P-JW8" id="F7f-7g-ZUX"/>
             </connections>
             <point key="canvasLocation" x="213" y="426"/>
         </view>

@@ -109,11 +109,11 @@ class HomeCollectionViewCell: UICollectionViewCell {
         
         /** 年 月 日 */
         if let pubTime = topicInfo?.pubTime {
-        let pubDate = NSDate(timeIntervalSince1970: NSTimeInterval(pubTime)!/1000.0)
+        let pubDate = NSDate(timeIntervalSince1970: NSTimeInterval(pubTime)! / 1000.0)
             var components = kCalendar.components(.Month, fromDate: pubDate)
             monthLabel.text = "\(components.month)月"
             components = kCalendar.components(.Day, fromDate: pubDate)
-            dayLabel.text = "\(components.day)日"
+            dayLabel.text = "\(components.day)"
             components = kCalendar.components(.Year, fromDate: pubDate)
             yearLabel.text = "\(components.year)年"
         }

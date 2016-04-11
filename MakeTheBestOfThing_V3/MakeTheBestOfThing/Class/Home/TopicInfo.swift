@@ -78,7 +78,7 @@ class TopicInfo : NSObject {
             if response?.rtn == "0" {
                 /** 请求成功 */
                 if let data = response?.data {
-                    print("网络请求的数据：",data)
+//                    print("网络请求的数据：",data)
                     //创建一个可变数组topicInfoList存放一个个模型
                     var topicInfoList = [TopicInfo]()
                     for dict in data["topicInfoList"] as! [[String: AnyObject]] {

@@ -23,8 +23,11 @@ class TopMenuButtons: UIView {
     
 
     @IBOutlet weak var leftButton: QTButton!
+    
     @IBOutlet weak var rightButton: QTButton!
+    
     @IBOutlet weak var indicatotView: UIView!
+    
     weak  var delegate : TopMenuDelegate?
     
     var showText : (String,String)? {

@@ -94,36 +94,54 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为何会有这么帅的人！！为何会有这么帅的人！！为何会有这么帅的人！！为何会有这么帅的人！！为何会有这么帅的人！！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dA-SX-ljU" userLabel="describe">
-                                                    <rect key="frame" x="15" y="315" width="288" height="44.5"/>
+                                                    <rect key="frame" x="15" y="315" width="281" height="44.5"/>
                                                     <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qOn-Xy-vzg">
-                                                    <rect key="frame" x="318" y="315" width="36" height="44"/>
+                                                    <rect key="frame" x="311" y="315" width="50" height="44"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="88月" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-UJ-qE4" userLabel="month">
-                                                            <rect key="frame" x="6" y="0.0" width="25" height="18"/>
-                                                            <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="10"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="88月" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-UJ-qE4" userLabel="month">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="13"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="13" id="D6l-xa-9Hx"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="12"/>
                                                             <color key="textColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ih6-G8-f6T" userLabel="day">
-                                                            <rect key="frame" x="8" y="18" width="21" height="15"/>
-                                                            <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ih6-G8-f6T" userLabel="day">
+                                                            <rect key="frame" x="0.0" y="13" width="50" height="18"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="18" id="uDo-ho-H9Y"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="17"/>
                                                             <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srn-PJ-1B9" userLabel="year">
-                                                            <rect key="frame" x="3" y="33" width="30" height="11"/>
-                                                            <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="10"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srn-PJ-1B9" userLabel="year">
+                                                            <rect key="frame" x="0.0" y="31" width="50" height="13"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="13" id="Fv7-MZ-MFO"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="12"/>
                                                             <color key="textColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="8uc-UJ-qE4" firstAttribute="leading" secondItem="qOn-Xy-vzg" secondAttribute="leading" id="6gV-9i-7HY"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Ih6-G8-f6T" secondAttribute="trailing" id="Nt2-Jb-YIR"/>
                                                         <constraint firstAttribute="height" constant="44" id="Shq-fz-1ny"/>
-                                                        <constraint firstAttribute="width" constant="36" id="VT9-uJ-VVg"/>
+                                                        <constraint firstAttribute="width" constant="50" id="VT9-uJ-VVg"/>
+                                                        <constraint firstAttribute="trailing" secondItem="8uc-UJ-qE4" secondAttribute="trailing" id="XcM-Qb-F6Z"/>
+                                                        <constraint firstItem="8uc-UJ-qE4" firstAttribute="top" secondItem="qOn-Xy-vzg" secondAttribute="top" id="a5i-G7-VNI"/>
+                                                        <constraint firstItem="Ih6-G8-f6T" firstAttribute="top" secondItem="8uc-UJ-qE4" secondAttribute="bottom" id="gPq-uw-TBm"/>
+                                                        <constraint firstItem="srn-PJ-1B9" firstAttribute="leading" secondItem="qOn-Xy-vzg" secondAttribute="leading" id="jqv-cR-gOJ"/>
+                                                        <constraint firstAttribute="trailing" secondItem="srn-PJ-1B9" secondAttribute="trailing" id="m8j-Fi-dqi"/>
+                                                        <constraint firstItem="Ih6-G8-f6T" firstAttribute="leading" secondItem="qOn-Xy-vzg" secondAttribute="leading" id="mzF-ft-2g0"/>
+                                                        <constraint firstAttribute="bottom" secondItem="srn-PJ-1B9" secondAttribute="bottom" id="z9W-Z3-vYq"/>
                                                     </constraints>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52I-se-qNc" userLabel="toolbar" customClass="ToolbarView" customModule="MakeTheBestOfThing" customModuleProvider="target">
@@ -228,24 +246,24 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="EH1-2y-szM"/>
                                                 <exclude reference="CiS-lZ-X23"/>
-                                                <exclude reference="SEX-vW-6es"/>
+                                                <exclude reference="EH1-2y-szM"/>
                                                 <exclude reference="PfV-XL-icP"/>
-                                                <exclude reference="OF8-rq-OaW"/>
-                                                <exclude reference="jyq-AZ-uTr"/>
-                                                <exclude reference="qbk-Wh-Dkl"/>
-                                                <exclude reference="FCZ-KT-2g9"/>
+                                                <exclude reference="SEX-vW-6es"/>
                                                 <exclude reference="3wW-wK-3lQ"/>
+                                                <exclude reference="FCZ-KT-2g9"/>
                                                 <exclude reference="IBD-5e-NE5"/>
                                                 <exclude reference="KyR-iE-suh"/>
-                                                <exclude reference="s37-z0-HYj"/>
+                                                <exclude reference="OF8-rq-OaW"/>
                                                 <exclude reference="Yca-hr-84q"/>
+                                                <exclude reference="jyq-AZ-uTr"/>
+                                                <exclude reference="qbk-Wh-Dkl"/>
+                                                <exclude reference="s37-z0-HYj"/>
                                                 <exclude reference="iO7-us-O6j"/>
-                                                <exclude reference="sdK-if-4Pc"/>
                                                 <exclude reference="TxU-Yb-6kS"/>
-                                                <exclude reference="nMH-ZC-RaE"/>
+                                                <exclude reference="sdK-if-4Pc"/>
                                                 <exclude reference="NFX-Je-AiX"/>
+                                                <exclude reference="nMH-ZC-RaE"/>
                                             </mask>
                                         </variation>
                                         <connections>

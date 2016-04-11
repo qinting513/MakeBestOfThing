@@ -40,7 +40,7 @@ class DiscoverCollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        layer.cornerRadius = 3.0
+        layer.cornerRadius = 6.0
         layer.masksToBounds = true
     }
     
