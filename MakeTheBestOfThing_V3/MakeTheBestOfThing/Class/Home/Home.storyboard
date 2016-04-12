@@ -32,20 +32,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bg" translatesAutoresizingMaskIntoConstraints="NO" id="MLI-s8-zMX">
-                                <rect key="frame" x="0.0" y="64" width="610" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-ge-Qv7">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="30" minimumInteritemSpacing="0.0" id="S6C-2l-TYm">
                                     <size key="itemSize" width="373" height="395"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="15" minY="30" maxX="0.0" maxY="15"/>
+                                    <inset key="sectionInset" minX="15" minY="15" maxX="0.0" maxY="15"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="Rby-kt-Bgo" customClass="HomeCollectionViewCell" customModule="MakeTheBestOfThing" customModuleProvider="target">
-                                        <rect key="frame" x="15" y="110" width="373" height="395"/>
+                                        <rect key="frame" x="15" y="70.5" width="373" height="395"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="373" height="395"/>
@@ -290,13 +290,13 @@
                         <constraints>
                             <constraint firstItem="Uz0-ge-Qv7" firstAttribute="leading" secondItem="xdh-n5-oli" secondAttribute="leading" id="9Jv-Lm-UpQ"/>
                             <constraint firstAttribute="bottom" secondItem="Uz0-ge-Qv7" secondAttribute="bottom" id="FEn-hH-mTy"/>
-                            <constraint firstItem="MLI-s8-zMX" firstAttribute="top" secondItem="SL8-aK-4ni" secondAttribute="bottom" id="GaU-oz-u3R"/>
+                            <constraint firstItem="MLI-s8-zMX" firstAttribute="top" secondItem="SL8-aK-4ni" secondAttribute="bottom" constant="-64" id="GaU-oz-u3R"/>
                             <constraint firstItem="MLI-s8-zMX" firstAttribute="leading" secondItem="xdh-n5-oli" secondAttribute="leading" id="IEs-LK-mdU"/>
                             <constraint firstItem="o7U-Ni-ile" firstAttribute="top" secondItem="Uz0-ge-Qv7" secondAttribute="bottom" constant="-64" id="JMF-r0-iM2"/>
                             <constraint firstAttribute="trailing" secondItem="Uz0-ge-Qv7" secondAttribute="trailing" id="TLb-mT-w7Q"/>
                             <constraint firstItem="o7U-Ni-ile" firstAttribute="top" secondItem="MLI-s8-zMX" secondAttribute="bottom" id="aaA-FC-zMT"/>
-                            <constraint firstAttribute="trailing" secondItem="MLI-s8-zMX" secondAttribute="trailing" constant="-10" id="bnU-pW-xYU"/>
-                            <constraint firstItem="Uz0-ge-Qv7" firstAttribute="top" secondItem="SL8-aK-4ni" secondAttribute="bottom" constant="-64" id="d4B-QH-U7K"/>
+                            <constraint firstAttribute="trailing" secondItem="MLI-s8-zMX" secondAttribute="trailing" id="bnU-pW-xYU"/>
+                            <constraint firstItem="Uz0-ge-Qv7" firstAttribute="top" secondItem="SL8-aK-4ni" secondAttribute="bottom" id="d4B-QH-U7K"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -312,7 +312,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Shs-te-jNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960" y="384"/>
+            <point key="canvasLocation" x="857" y="376"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6aT-E0-mfg">
@@ -330,7 +330,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0H-Wk-IBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="384"/>
+            <point key="canvasLocation" x="168" y="366"/>
         </scene>
     </scenes>
     <resources>

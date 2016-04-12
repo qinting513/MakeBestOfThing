@@ -45,7 +45,7 @@
                                         <constraint firstAttribute="height" constant="15" id="EQs-QO-IOz"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TJv-k7-Vet">
                                     <rect key="frame" x="0.0" y="66" width="195.5" height="4"/>
@@ -83,7 +83,7 @@
                                         <constraint firstAttribute="height" constant="15" id="5Qu-qz-rKf"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0F-Fo-Skm">
                                     <rect key="frame" x="0.0" y="66" width="195" height="4"/>
@@ -121,7 +121,7 @@
                                         <constraint firstAttribute="height" constant="15" id="mRe-cj-q1M"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4DZ-bl-7W3">

@@ -123,14 +123,19 @@ extension DiscoverSubViewController : UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         return CGSizeMake(CGRectGetWidth(collectionView.bounds), 40)
     }
+
+    
 }
 
-//MARK: - 扩展方法
+//MARK: - 点击 进入详情界面
 extension DiscoverSubViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let cell = sender as? DiscoverCollectionViewCell {
-//        if let toVC = segue.destinationViewController as? 
+            if let toVC = segue.destinationViewController as?  TopicDetailController{
+            toVC.subjectID = cell.subjectInfo?.subjectID
+            toVC.title  = cell.subjectInfo?.title
+            }
         }
     }
 }

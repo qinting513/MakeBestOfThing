@@ -98,6 +98,7 @@
                                             <outlet property="imageView" destination="lQH-Hh-eum" id="6EA-qu-8gn"/>
                                             <outlet property="picButton" destination="u7F-Xg-Qep" id="AhC-Rf-1Sh"/>
                                             <outlet property="visitorButton" destination="3Tj-g2-5AK" id="Ine-r6-gX0"/>
+                                            <segue destination="Oez-ep-wHe" kind="show" id="fBq-Rh-bEk"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -123,6 +124,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y57-ul-z3c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="170" y="128"/>
+        </scene>
+        <!--TopicDetail-->
+        <scene sceneID="s0M-yb-74Q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TopicDetail" id="Oez-ep-wHe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTN-x3-jUp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="128"/>
         </scene>
     </scenes>
     <resources>

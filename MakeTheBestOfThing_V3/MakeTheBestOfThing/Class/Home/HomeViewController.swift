@@ -36,7 +36,7 @@ class HomeViewController: UIViewController  {
         super.viewWillLayoutSubviews()
         
         let width = CGRectGetWidth(view.bounds) - kCellInsets.left - kCellInsets.right
-        let height = CGRectGetHeight(view.bounds) - kCellInsets.top - kCellInsets.bottom - 100
+        let height = CGRectGetHeight(view.bounds) - kCellInsets.top - kCellInsets.bottom - 64
         layout.itemSize = CGSizeMake(width, height)
     }
     
