@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hpx-Nc-6b7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--发现-->
+        <scene sceneID="5Zt-Xf-Vyi">
+            <objects>
+                <viewController id="ztH-LR-EWJ" customClass="DiscoverViewController" customModule="MakeTheBestOfThing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kit-0D-BDA"/>
+                        <viewControllerLayoutGuide type="bottom" id="s6n-vc-ORQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p8I-eG-ZSp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrz-Zu-UxY">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <connections>
+                                    <segue destination="aQq-d4-zck" kind="embed" id="5jC-Sd-xHp"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOW-Uy-Wfv">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <connections>
+                                    <segue destination="hSx-1d-E1L" kind="embed" id="EEE-FP-9a0"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hrz-Zu-UxY" secondAttribute="trailing" id="9RC-kP-S8c"/>
+                            <constraint firstItem="hrz-Zu-UxY" firstAttribute="top" secondItem="Kit-0D-BDA" secondAttribute="bottom" constant="-20" id="Eg8-Be-YSV"/>
+                            <constraint firstItem="hrz-Zu-UxY" firstAttribute="leading" secondItem="p8I-eG-ZSp" secondAttribute="leading" id="Vfj-Bg-KJz"/>
+                            <constraint firstAttribute="trailing" secondItem="lOW-Uy-Wfv" secondAttribute="trailing" id="VrL-BK-0X2"/>
+                            <constraint firstItem="s6n-vc-ORQ" firstAttribute="top" secondItem="lOW-Uy-Wfv" secondAttribute="bottom" id="fnd-dp-GSA"/>
+                            <constraint firstItem="s6n-vc-ORQ" firstAttribute="top" secondItem="hrz-Zu-UxY" secondAttribute="bottom" id="oEH-9H-dgg"/>
+                            <constraint firstItem="lOW-Uy-Wfv" firstAttribute="leading" secondItem="p8I-eG-ZSp" secondAttribute="leading" id="v3O-oV-Oo9"/>
+                            <constraint firstItem="lOW-Uy-Wfv" firstAttribute="top" secondItem="Kit-0D-BDA" secondAttribute="bottom" constant="-20" id="ymt-a1-D3b"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="发现" id="8bD-Pp-enz"/>
+                    <connections>
+                        <outlet property="discoverSubContainerView" destination="hrz-Zu-UxY" id="vJf-Lx-MwQ"/>
+                        <outlet property="topicContainerView" destination="lOW-Uy-Wfv" id="1e2-tz-tWz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="chb-Ga-Oxi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907" y="-27"/>
+        </scene>
+        <!--DiscoverSub-->
+        <scene sceneID="eAQ-xf-Eo2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DiscoverSub" id="aQq-d4-zck" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPv-kg-fPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2468.5" y="-71"/>
+        </scene>
+        <!--Topic-->
+        <scene sceneID="epx-BC-Nmw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Topic" id="hSx-1d-E1L" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBF-Wq-069" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2468.5" y="61"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lOn-Th-WXG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hpx-Nc-6b7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wud-y5-IhC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ztH-LR-EWJ" kind="relationship" relationship="rootViewController" id="8fD-w8-NET"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="McA-7I-KKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1095" y="-27"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="BigYoungMediumGB2.0.ttf">
+            <string>BigYoungMediumGB2.0</string>
+            <string>BigYoungMediumGB2.0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SectionHeaderView" id="U6b-Vx-4bR" customClass="SectionHeaderView" customModule="MakeTheBestOfThing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="25"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WoM-jY-hJS">
+                    <rect key="frame" x="0.0" y="0.0" width="376" height="10"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="cFG-3F-CEV"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cga-2V-C2r">
+                    <rect key="frame" x="10" y="10" width="200" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="7SV-wM-0O9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="discover_more" translatesAutoresizingMaskIntoConstraints="NO" id="tIk-Ro-ACV">
+                    <rect key="frame" x="356" y="12" width="10" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="bz3-1f-0qz"/>
+                        <constraint firstAttribute="width" constant="10" id="efX-5J-on8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ang-72-4Qa">
+                    <rect key="frame" x="312" y="10" width="42" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="be7-44-W7q"/>
+                        <constraint firstAttribute="height" constant="10" id="ydh-50-o9D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BigYoungMediumGB2.0" family="BigYoungMediumGB2.0" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ydh-50-o9D"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ang-72-4Qa" secondAttribute="bottom" id="0zK-Cy-FGi"/>
+                <constraint firstItem="ang-72-4Qa" firstAttribute="centerY" secondItem="cga-2V-C2r" secondAttribute="centerY" id="1Ov-gI-CTq"/>
+                <constraint firstAttribute="trailing" secondItem="WoM-jY-hJS" secondAttribute="trailing" id="45T-aN-PIj"/>
+                <constraint firstAttribute="bottom" secondItem="cga-2V-C2r" secondAttribute="bottom" id="4Ii-x2-SCH"/>
+                <constraint firstItem="tIk-Ro-ACV" firstAttribute="centerY" secondItem="cga-2V-C2r" secondAttribute="centerY" id="4UG-Pm-cxK"/>
+                <constraint firstItem="tIk-Ro-ACV" firstAttribute="top" secondItem="WoM-jY-hJS" secondAttribute="bottom" id="A90-mk-wYh"/>
+                <constraint firstItem="WoM-jY-hJS" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="ISE-G7-xKO"/>
+                <constraint firstItem="WoM-jY-hJS" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="La1-mU-kGm"/>
+                <constraint firstItem="tIk-Ro-ACV" firstAttribute="leading" secondItem="ang-72-4Qa" secondAttribute="trailing" constant="2" id="RrF-mM-QNP"/>
+                <constraint firstItem="ang-72-4Qa" firstAttribute="top" secondItem="WoM-jY-hJS" secondAttribute="bottom" id="Y11-6j-OY4"/>
+                <constraint firstAttribute="bottom" secondItem="tIk-Ro-ACV" secondAttribute="bottom" id="gWG-kR-21B"/>
+                <constraint firstItem="cga-2V-C2r" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="huD-tD-zhL"/>
+                <constraint firstAttribute="trailing" secondItem="tIk-Ro-ACV" secondAttribute="trailing" constant="10" id="qUk-FJ-e5e"/>
+                <constraint firstItem="WoM-jY-hJS" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="uzP-r5-jsC"/>
+                <constraint firstItem="cga-2V-C2r" firstAttribute="top" secondItem="WoM-jY-hJS" secondAttribute="bottom" id="z6E-Qc-Rxk"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="uzP-r5-jsC"/>
+                    <exclude reference="A90-mk-wYh"/>
+                    <exclude reference="gWG-kR-21B"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="myLabel" destination="cga-2V-C2r" id="RJS-Jl-9fd"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="discover_more" width="22" height="22"/>
+    </resources>
+</document>
