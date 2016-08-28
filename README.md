@@ -1,2 +1,3 @@
 # MakeBestOfThing
 MakeBestOfThing随遇而安
+这个app来源于随遇！
